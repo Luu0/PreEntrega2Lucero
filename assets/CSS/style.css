@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 @font-face {
     font-family: "bebasneue";
     src: url("../Fonts/BebasNeue-Regular.otf");
@@ -15,9 +14,8 @@
 }
 
 
-
 body{
-    background-image: url("../Imagenes/drgbackground.jpg");
+    background-image: url("../img/drgbackground.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
