@@ -62,11 +62,20 @@ header{
 
 
 
+footer{
+    background-color: #222222;
+    margin-top: 20px;
+}
 
+.logo{
+    margin: 0px;
+}
 
-
-
-
+@media(min-width: 325px){
+    .logo{
+        margin: 10px;
+    }   
+}
 
 
 /* .borde{
