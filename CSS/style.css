@@ -40,9 +40,15 @@ body{
 h1{
     font-family: airamerica;
     font-size: 3.3rem;
-    color: white;
+    color: orange;
 }
-
+h2{
+    font-size: 2.8rem; 
+    color:orange;
+    font-family: bebasneue;
+    text-align: center;
+    
+}
 .p{
     font-size:  2rem;
     color: white;
@@ -58,6 +64,7 @@ header{
 .containerback2{
     background-color: #222222;
     margin-top: 25px;
+    padding: 20px;
 }
 
 
@@ -65,6 +72,7 @@ header{
 footer{
     background-color: #222222;
     margin-top: 20px;
+    padding: 10px;
 }
 
 .logo{
@@ -74,7 +82,16 @@ footer{
 @media(min-width: 325px){
     .logo{
         margin: 10px;
+    }
+    footer{
+        background-color: #222222;
+        margin-top: 20px;
+        padding: 0px
     }   
+}
+.centrado{
+    display: flex;
+    align-items: center;
 }
 
 
