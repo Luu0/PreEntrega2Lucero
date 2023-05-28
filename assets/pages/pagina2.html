@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../img/drgicono.ico" type="image/x-icon">
     <title>Deep</title>
     
 </head>
@@ -15,7 +16,7 @@
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#inicio">INICIO</a>
+              <a class="navbar-brand" href="../../Index.html">INICIO</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
               </button>
@@ -25,13 +26,10 @@
                             <a class="nav-link" href="#clases">CLASES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#soporte">SOPORTE</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#redes">REDES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#nosotros">NOSOTROS</a>
+                            <a class="nav-link" href="../../Index.html#nosotros">NOSOTROS</a>
                         </li>                
                     </ul>
               </div>
@@ -40,10 +38,11 @@
 
     </header>
 
-
-
     <main>
-
+        <div id="clases"></div>
+        <div class="containerback">
+            <h1>CLASES <img src="../img/clasesimg.png" alt="Clasesimg" width="80px" height="80px"></h1> 
+        </div>
         <div class="containerback2">
             <h2>Driller</h2>       
             <div class="container text-center">
@@ -57,7 +56,7 @@
                             "Topo" como su equipo, y sus arrojables son el Hacha de Impacto, la Granada de Alto Explosivo, el Destripador con Resorte y la Granada de Neurotoxina.
                         </p>
                     </div>
-                    <div class="col-xs-8 col-sm-12 col-xl-5 offset-xl-1">
+                    <div class="col-xs-8 col-sm-12 col-xl-5 offset-xl-1 d-flex align-items-center justify-content-center">
                         <img class="w-100" src="../img/driller.png" alt="Driller">
                     </div>
                 </div>
@@ -68,16 +67,16 @@
             <h2>Gunner</h2>
             <div class="container text-center">
                 <div class="row">
-                <div class="col-xs-8 col-sm-12 col-xl-5 offset-xl-1">
-                    <img class="w-100" src="../img/gunner.png" alt="Gunner">
-                </div>
-                <div class="col-xs-2 col-sm-12 col-xl-6 centrado">
-                    <p class="p">
-                        El artillero está equipado con la ametralladora motorizada "Lead Storm", 
-                        el cañón automático pesado "Thunderhead" y el sistema de cohetes guiados "Hurricane" como sus principales, y el revólver pesado "Bulldog", el BRT7 Burst Fire Gun y el ArmsKore Coil Gun como sus secundarios.
-                        Tiene el lanzador de tirolesa, el generador de escudos y la plataforma blindada "Barracuda" como su equipo, y la granada pegajosa, la granada incendiaria y la granada de racimo como objetos arrojadizos.
-                    </p>
-                </div>
+                    <div class="col-xs-8 col-sm-12 col-xl-5  d-flex align-items-center justify-content-center">
+                        <img class="w-100" src="../img/gunner.png" alt="Gunner">
+                    </div>
+                    <div class="col-xs-2 col-sm-12 col-xl-6 centrado">
+                        <p class="p">
+                            El artillero está equipado con la ametralladora motorizada "Lead Storm", 
+                            el cañón automático pesado "Thunderhead" y el sistema de cohetes guiados "Hurricane" como sus principales, y el revólver pesado "Bulldog", el BRT7 Burst Fire Gun y el ArmsKore Coil Gun como sus secundarios.
+                            Tiene el lanzador de tirolesa, el generador de escudos y la plataforma blindada "Barracuda" como su equipo, y la granada pegajosa, la granada incendiaria y la granada de racimo como objetos arrojadizos.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,28 +91,35 @@
                             Fox" como su equipo, y el generador de campo inhibidor, la granada criogénica, el bote de feromonas y el barredor de aturdimiento voltaico como sus objetos arrojadizos.
                         </p>
                     </div>
-                    <div class="col-xs-8 col-sm-12 col-xl-5 offset-xl-1">
+                    <div class="col-xs-8 col-sm-12 col-xl-5 offset-xl-1 d-flex align-items-center justify-content-center">
                         <img class="w-100" src="../img/scout.png" alt="Scout">
                     </div>
                 </div>
             </div>
-        </div>     
-
-
-
-
-
-
-
-
-
-     
-
-
+        </div> 
         
+        <div class="containerback2">
+            <h2>Ingeniero</h2>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-12 col-xl-5 offset-xl-1 d-flex align-items-center justify-content-center">
+                        <img class="w-100" src="../img/engi.png" alt="Gunner">
+                    </div>
+                    <div class="col-xs-2 col-sm-12 col-xl-6 centrado">
+                        <p class="p">
+                            Como ingeniero, llevas dos elementos esenciales para sobrevivir en las cuevas: el cañón de plataforma dispara plataformas escalables sobre cualquier superficie y tus torretas centinela automatizadas lanzan 
+                            ráfagas de fuego de apoyo. Puede que no sea el más fuerte de los enanos, pero tu escopeta de combate y tu devastador lanzagranadas te convierten en un oponente formidable.
+                            El ingeniero puede elegir entre tres granadas diferentes para usar: L.U.R.E., que crea un señuelo holográfico enano que distrae a los enemigos de él y sus aliados, Plasma Burster,
+                            que crea cuatro explosiones por granada, y Proximity Mine, que solo explota cuando un enemigo de tamaño mediano o grande entra en su zona de disparo.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-
+        </div>
         
+        <div id="redes"></div>
+
         <footer>
             <div class="container text-center">               
                 <div class="row">
